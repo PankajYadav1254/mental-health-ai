@@ -24,3 +24,12 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@layer utilities {
+  .green-text {
+    @apply text-[#417505];
+  }
+  .green-background {
+    @apply bg-[#417505];
+  }
+}
